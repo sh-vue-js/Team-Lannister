@@ -7,66 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/743647f321.js" crossorigin="anonymous"></script>
     <title>Roller Speedy Quads</title>
+    <link rel="stylesheet" href="./capstone.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <nav>
+
+    <article class= "left-end footer main">
+
+            
+        <!-- Sidebar -->
+            <div style="color: #0392BF;">
+                <i class="fas fa-sync-alt logo" style = "background: #ED48BA;"></i>
+           </div>
+           <div  class="media" style="color: #0392BF;">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-vk"></i>
+           </div>
+           
+       
+   </article>
+
+    <article class="middle main">
+        
+          <section > 
             <!-- navbar -->
-            <a href="#">ADULTS</a>
-            <a href="#">BABY</a>
-            <a href="#">BESTSELLERS</a>
-            <a href="#">SPECIALS</a>
-            <a href="#">ABOUT US</a>
-            <span style="color: #FFF;">
-                <i class="fas fa-shopping-cart"></i>
-            </span>
-        </nav>
+            <ul class = "top-nav">
+            <li><a href="#">ADULTS</a></li>
+            <li><a href="#">BABY</a></li>
+            <li><a href="#">BESTSELLERS</a></li>
+            <li><a href="#">SPECIALS</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            
+            </ul>
+            
+            
+           
+        
 
-        <section>
-            <div>
+         </section>
+
+         <section>
+            <div class = "img">
                 <!-- picture -->
-                <img style="height: 500px;" src="assets/images/skate.png" alt="Roller Skates">
+                <img style="height: 350px; width: 310px;" src="https://imgur.com/u8FBNkg.png" alt="Roller Skates">
+                <div class = "img-text">
+                    <p class = "img-text1 text">SPEEDY</p>
+                    <p class = "img-text2 text">QUADS</p>
+                </div>
             </div>
+         </section>
 
-            <div>
+        
+    </article>
+
+    <article class = "right-end main">
+            
                 <!-- sidetext -->
                 <div>
-                    <h1>ROLLER SPEEDY QUADS</h1>
-                    <span style="color: gold;">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </span>
-                    <p>Contact 800-595-00</p>
-                    <div>
-                        <p>3 500 руб.</p>
-                    </div>
+                <span style="color: #FFF;">
+                    <i class="fas fa-shopping-cart cart"></i>
+                </span>
                 </div>
+                <div class = "star">
+                    
+                    <p class = "text" style = " font-weight: normal; font-size: 25px; padding-bottom: 15px;">ROLLER SPEEDY QUADS</p>
+                    
+                
+                    <span style ="padding-left: 30px;"> 
+                        <i style="color: rgb(255, 215, 0); font-size: 12px" class="fas fa-star"></i>
+                        <i style="color: gold; font-size: 12px" class="fas fa-star"></i>
+                        <i style="color: gold; font-size: 12px" class="fas fa-star"></i>
+                        <i style="color: gold; font-size: 12px" class="fas fa-star"></i>
+                        <i style="color: gold; font-size: 12px" class="fas fa-star"></i>
+                    </span>
+                
+                </div>
+                <div>
+
+                    <p class = "text" style = "font-size: 15px; padding-bottom: 15px; color: rgb(168, 168, 164);">Contact 800-595-00</p>
+                    
+                    <p class = "text" style = "padding-bottom: 30px;">3 500 руб.</p>
+                    
+                    </div>
 
                 <div>
-                    <p>
+                    <p class = "text" style = "font-size: 15px;">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada nulla ut orci
                         dapibus volutpat. Fusce ac erat urna. Duis cursus, turpis non condimentum rhoncus, tellus nisi
                         molestie nisl, at interdum urna enim ut lacus. Ut ac est vitae lacus ultrices auctor nec ac
-                        risus. Phasellus metus lorem, laoreet quis tortor ac, tristique eleifend mi. Fusce lobortis,
-                        risus sed euismod convallis, mauris enim accumsan tortor, vitae tincidunt augue felis et quam.
-                        Donec ullamcorper sem nisl, a suscipit urna posuere et. Pellentesque rhoncus velit non mauris
-                        faucibus, varius euismod risus mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse pellentesque diam ac felis sollicitudin hendrerit. Suspendisse potenti.
+                        risus. Phasellus metus lorem, laoreet quis tortor ac, tristique eleifend mi. 
                     </p>
                 </div>
-                <div>
+                <div id = "more">
                     <a href="#">More details</a>
                 </div>
 
-                <div>
-                    <span>
+                <div class = "color">
+                    <span class = "text" style = "margin-right: 15px;">
                         COLOR:
                     </span>
-                    <span style="color: #0392BF;">
+                    <span style="color: #0392BF; border: 1px solid white; border-radius: 50%;">
                         <i class="fas fa-circle"></i>
                     </span>
                     <span style="color: #ED48BA;">
@@ -81,36 +126,25 @@
                 </div>
 
                 <div>
-                    <label for="sizes">SIZE:</label>
-                    <select name="size" id="sizes">
+                    <label for="sizes" class = "text size">SIZE:</label>
+                    <select name="size" id="sizes" class = "text">
                         <option value="Select your size" disabled selected>Select your size</option>
                         <option value="7">7</option>
                         <option value="8">8</option>
                         <option value="9">9</option>
                         <option value="10">10</option>
                     </select>
-
-                    <div>
-                        <button>Add To Cart</button>
-                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
 
-    <footer>
-        <div>
-            <!-- Sidebar -->
-            <span style="background: #ED48BA; color: #0392BF;">
-                <i class="fas fa-sync-alt"></i>
-            </span>
-            <span style="color: #0392BF;">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fab fa-vk"></i>
-            </span>
-        </div>
-    </footer>
+                <div>
+                    <button class = "text add">Add To Cart</button>
+                </div>
+            
+            
+        </article>
+
+        
+    
 </body>
 
 </html>

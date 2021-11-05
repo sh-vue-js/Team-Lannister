@@ -1,0 +1,157 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    background-color:  #0392BF;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   
+    
+    
+}
+.footer {
+    background-color:rgb(216, 227, 236);
+    padding: 10px;
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: space-between;
+    
+}
+
+.middle {
+    width: 60%;
+    padding-top: 30px;
+}
+.img {
+    
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+.img-text {
+
+    font-size: 50px;
+   
+    padding-left: 180px;
+    position: absolute;
+    margin-top: -70px;
+
+    
+
+}
+
+.img-text2 {
+   
+    padding-left: 90px;
+    
+
+
+}
+
+.top-nav {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav li {
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.1rem;
+    padding: 10px;
+}
+.top-nav li a:hover,nav > div > i:hover{
+    color: black;
+}
+
+nav div i{
+    cursor: pointer;
+}
+
+.right-end {
+    width: 30%;
+    padding-top: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(202, 197, 197);
+}
+.text {
+    color: rgb(209, 202, 202);
+}
+.cart {
+    float: right;
+    padding-bottom: 100px;
+}
+.star{
+    display: flex;
+    width: 100%;
+    padding-top: -10px;
+}
+
+#more {
+    text-decoration: underline;
+    font-size: 13px;
+    padding-top: 5px;
+
+}
+.add {
+    margin-top: 30px;
+    background-color: #ED48BA;;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    
+}
+.color {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: -20px;
+    
+}
+.color span {
+    margin-right: 10px;
+}
+#sizes {
+                   
+     background-color: #0392BF;
+     padding: 5px 40px;
+     border: 1px solid rgb(209, 202, 202);
+     border-radius: 5px;
+}
+.size {
+    margin-right: 30px;
+}
+.logo {
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.media i {
+    padding: 10px auto;
+    margin: 10px auto;
+}
