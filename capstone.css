@@ -179,11 +179,12 @@ a {
   margin: 10px auto;
 }
 
-/* Screens below 541 and above 850px */
+/* Screens above 541 and below 960px */
 
-@media only screen and (min-width: 541px) and (max-width: 850px) {
+@media only screen and (min-width: 541px) and (max-width: 960px) {
   .footer {
     position: fixed;
+    width:10rem;
   }
 
   .top-nav {
@@ -219,7 +220,7 @@ a {
 
   .skate-img {
     text-align: center;
-    margin-left: 200px;
+    margin-left: 40vw;
     height: 290px;
     width: 250px;
   }
@@ -243,7 +244,9 @@ a {
 
   .img-text {
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 35vw;
+    width: fit-content;
+    padding: 0;
   }
 
   .rating {
@@ -263,6 +266,9 @@ a {
   .add {
     margin-bottom: 2rem;
   }
+  .logo{
+    padding:5px;
+  }
 }
 
 /* Screens below 960px but above 850px */
@@ -270,22 +276,24 @@ a {
 @media only screen and (max-width: 960px) {
   .footer {
     position: fixed;
-    width: 4rem;
+    width: 3rem;
   }
 
   .top-nav {
     display: none;
     flex-direction: row;
-    width: 100%;
+    width: fit-content;
     margin-top: 1rem;
+    margin-left: 100px;
   }
 
   .top-nav.show {
-    display: flex;
+    position: absolute;
+    display: block;
   }
 
   .top-nav li {
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .top-nav li:hover {
@@ -318,4 +326,84 @@ a {
   .add {
     margin-bottom: 2rem;
   }
+}
+
+/*For mobile view*/
+@media only screen and (max-width:541px){
+  .footer {
+    position: fixed;
+  }
+
+  .top-nav {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 55px;
+    width:fit-content;
+  }
+
+  .top-nav li {
+    font-size: 16px;
+  }
+
+
+  .top-nav.show {
+    position: absolute;
+    display: block;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 70px;
+
+  }
+
+  .right-end {
+    width: 100%;
+    margin-left:-36vw;
+    margin-top:600px;
+    
+  }
+
+  .skate-img {
+  margin-top:-50px;
+  }
+  #image{
+    margin-top:0px;
+    margin-left:130px;
+    width:100%;
+  }
+  .img {
+    text-align: center;
+    margin: auto;
+  }
+  .img-text{
+    margin-top:-20px;
+    text-align: left;
+    padding-left:30px;
+    width:fit-content;
+
+  }
+  .img-text1{
+    font-size: 35px;
+
+  }
+  .img-text2{
+    padding-left:50px;
+    font-size: 35px;
+    margin-top: -20px;
+  }
+  .logo{
+    font-size: 10px;
+  }
+  .cart{
+    position: absolute;
+    right:1vw;
+    top:40px;
+  }
+  #sizes {
+    width: 60%;
+    font-size: 14px;
+  }
+
 }
