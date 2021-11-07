@@ -190,8 +190,9 @@ a {
   .top-nav {
     display: none;
     margin-top: 1rem;
-    margin-left: 200px;
+    margin-left:40vw;
     font-size: 15px;
+    text-align: center;
   }
 
   .top-nav li {
@@ -220,7 +221,7 @@ a {
 
   .skate-img {
     text-align: center;
-    margin-left: 40vw;
+    margin-left: 30vw;
     height: 290px;
     width: 250px;
   }
@@ -243,7 +244,7 @@ a {
   }
 
   .img-text {
-    margin-top: 5px;
+    margin-top:-350px;
     margin-left: 35vw;
     width: fit-content;
     padding: 0;
@@ -284,12 +285,14 @@ a {
     flex-direction: row;
     width: fit-content;
     margin-top: 1rem;
-    margin-left: 100px;
+    text-align: center;
+    margin-bottom:-30px;
+
   }
 
   .top-nav.show {
-    position: absolute;
-    display: block;
+    position: relative;
+    display: flex;
   }
 
   .top-nav li {
@@ -331,14 +334,15 @@ a {
 /*For mobile view*/
 @media only screen and (max-width:541px){
   .footer {
-    position: fixed;
+    display:none;
   }
 
   .top-nav {
     display: none;
     margin-top: 1rem;
-    margin-left: 55px;
+    margin-left: 5px;
     width:fit-content;
+  
   }
 
   .top-nav li {
@@ -347,30 +351,37 @@ a {
 
 
   .top-nav.show {
-    position: absolute;
-    display: block;
+    position: relative;
+    display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+    margin-left:33vw;
   }
 
   .hamburger {
-    display: block;
-    margin-left: 70px;
+    display: flex;
+    margin-left: 20px;
 
   }
 
   .right-end {
     width: 100%;
-    margin-left:-36vw;
+    margin-left:-40vw;
     margin-top:600px;
     
   }
 
   .skate-img {
-  margin-top:-50px;
+  margin-top:-3px;
+  text-align: center;
+  margin-left: 20vw;
+  height: 290px;
+  width: 250px;
   }
+
   #image{
     margin-top:0px;
-    margin-left:130px;
+    margin-left:40px;
     width:100%;
   }
   .img {
@@ -378,7 +389,9 @@ a {
     margin: auto;
   }
   .img-text{
-    margin-top:-20px;
+    position: absolute;
+    margin-top:-370px;
+    margin-left:25vw;
     text-align: left;
     padding-left:30px;
     width:fit-content;
@@ -398,7 +411,7 @@ a {
   }
   .cart{
     position: absolute;
-    right:1vw;
+    right:7vw;
     top:40px;
   }
   #sizes {
