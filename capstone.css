@@ -179,11 +179,12 @@ a {
   margin: 10px auto;
 }
 
-/* Screens below 541 and above 850px */
+/* Screens above 541 and below 960px */
 
-@media only screen and (min-width: 541px) and (max-width: 850px) {
+@media only screen and (min-width: 541px) and (max-width: 960px) {
   .footer {
     position: fixed;
+    width:10rem;
   }
 
   .top-nav {
@@ -220,11 +221,7 @@ a {
 
   .skate-img {
     text-align: center;
-<<<<<<< Updated upstream
-    margin-left: 200px;
-=======
     margin-left: 30vw;
->>>>>>> Stashed changes
     height: 290px;
     width: 250px;
   }
@@ -247,16 +244,10 @@ a {
   }
 
   .img-text {
-<<<<<<< Updated upstream
-    margin-top: 5px;
-    margin-left: 50px;
-=======
     margin-top:-350px;
-    
     margin-left: 35vw;
     width: fit-content;
     padding: 0;
->>>>>>> Stashed changes
   }
 
   .rating {
@@ -276,6 +267,9 @@ a {
   .add {
     margin-bottom: 2rem;
   }
+  .logo{
+    padding:5px;
+  }
 }
 
 /* Screens below 960px but above 850px */
@@ -283,20 +277,14 @@ a {
 @media only screen and (max-width: 960px) {
   .footer {
     position: fixed;
-    width: 4rem;
+    width: 3rem;
   }
 
   .top-nav {
     display: none;
     flex-direction: row;
-    width: 100%;
+    width: fit-content;
     margin-top: 1rem;
-<<<<<<< Updated upstream
-  }
-
-  .top-nav.show {
-=======
-    /*margin-left: 100px;*/
     text-align: center;
     margin-bottom:-30px;
 
@@ -304,12 +292,11 @@ a {
 
   .top-nav.show {
     position: relative;
->>>>>>> Stashed changes
     display: flex;
   }
 
   .top-nav li {
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .top-nav li:hover {
@@ -343,8 +330,6 @@ a {
     margin-bottom: 2rem;
   }
 }
-<<<<<<< Updated upstream
-=======
 
 /*For mobile view*/
 @media only screen and (max-width:541px){
@@ -355,7 +340,7 @@ a {
   .top-nav {
     display: none;
     margin-top: 1rem;
-    margin-left: 36vw;
+    margin-left: 5px;
     width:fit-content;
   
   }
@@ -370,6 +355,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    margin-left:33vw;
   }
 
   .hamburger {
@@ -386,8 +372,13 @@ a {
   }
 
   .skate-img {
-  margin-top:-45px;
+  margin-top:-3px;
+  text-align: center;
+  margin-left: 20vw;
+  height: 290px;
+  width: 250px;
   }
+
   #image{
     margin-top:0px;
     margin-left:40px;
@@ -399,8 +390,8 @@ a {
   }
   .img-text{
     position: absolute;
-  
-    margin-top:-410px;
+    margin-top:-370px;
+    margin-left:25vw;
     text-align: left;
     padding-left:30px;
     width:fit-content;
@@ -429,4 +420,3 @@ a {
   }
 
 }
->>>>>>> Stashed changes
