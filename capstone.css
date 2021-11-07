@@ -189,8 +189,9 @@ a {
   .top-nav {
     display: none;
     margin-top: 1rem;
-    margin-left: 200px;
+    margin-left:40vw;
     font-size: 15px;
+    text-align: center;
   }
 
   .top-nav li {
@@ -219,7 +220,11 @@ a {
 
   .skate-img {
     text-align: center;
+<<<<<<< Updated upstream
     margin-left: 200px;
+=======
+    margin-left: 30vw;
+>>>>>>> Stashed changes
     height: 290px;
     width: 250px;
   }
@@ -242,8 +247,16 @@ a {
   }
 
   .img-text {
+<<<<<<< Updated upstream
     margin-top: 5px;
     margin-left: 50px;
+=======
+    margin-top:-350px;
+    
+    margin-left: 35vw;
+    width: fit-content;
+    padding: 0;
+>>>>>>> Stashed changes
   }
 
   .rating {
@@ -278,9 +291,20 @@ a {
     flex-direction: row;
     width: 100%;
     margin-top: 1rem;
+<<<<<<< Updated upstream
   }
 
   .top-nav.show {
+=======
+    /*margin-left: 100px;*/
+    text-align: center;
+    margin-bottom:-30px;
+
+  }
+
+  .top-nav.show {
+    position: relative;
+>>>>>>> Stashed changes
     display: flex;
   }
 
@@ -319,3 +343,90 @@ a {
     margin-bottom: 2rem;
   }
 }
+<<<<<<< Updated upstream
+=======
+
+/*For mobile view*/
+@media only screen and (max-width:541px){
+  .footer {
+    display:none;
+  }
+
+  .top-nav {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 36vw;
+    width:fit-content;
+  
+  }
+
+  .top-nav li {
+    font-size: 16px;
+  }
+
+
+  .top-nav.show {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-left: 20px;
+
+  }
+
+  .right-end {
+    width: 100%;
+    margin-left:-40vw;
+    margin-top:600px;
+    
+  }
+
+  .skate-img {
+  margin-top:-45px;
+  }
+  #image{
+    margin-top:0px;
+    margin-left:40px;
+    width:100%;
+  }
+  .img {
+    text-align: center;
+    margin: auto;
+  }
+  .img-text{
+    position: absolute;
+  
+    margin-top:-410px;
+    text-align: left;
+    padding-left:30px;
+    width:fit-content;
+
+  }
+  .img-text1{
+    font-size: 35px;
+
+  }
+  .img-text2{
+    padding-left:50px;
+    font-size: 35px;
+    margin-top: -20px;
+  }
+  .logo{
+    font-size: 10px;
+  }
+  .cart{
+    position: absolute;
+    right:7vw;
+    top:40px;
+  }
+  #sizes {
+    width: 60%;
+    font-size: 14px;
+  }
+
+}
+>>>>>>> Stashed changes
