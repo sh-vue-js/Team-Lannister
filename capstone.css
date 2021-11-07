@@ -145,6 +145,11 @@ a {
   margin-bottom: 2rem;
   cursor: pointer;
 }
+
+.add:hover{
+  color: lightgray;
+}
+
 .color {
   padding-top: 35px;
   padding-bottom: 35px;
@@ -154,9 +159,9 @@ a {
   margin-right: 10px;
 }
 #sizes {
-  background-color: #0392bf;
+  background-color: transparent;
   padding: 5px 40px;
-  border: 1px solid rgb(209, 202, 202);
+  border: 1px solid white;
   border-radius: 5px;
   font-size: 15px;
 }
@@ -177,6 +182,11 @@ a {
 .media i {
   padding: 10px auto;
   margin: 10px auto;
+}
+
+.blue,.yellow,.grey,.pink{
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 /* Screens above 541 and below 960px */
@@ -333,6 +343,9 @@ a {
 
 /*For mobile view*/
 @media only screen and (max-width:541px){
+  body{
+    overflow-x: hidden;
+  }
   .footer {
     display:none;
   }
@@ -366,7 +379,7 @@ a {
 
   .right-end {
     width: 100%;
-    margin-left:-40vw;
+    margin-left:-50vw;
     margin-top:600px;
     
   }
@@ -417,6 +430,9 @@ a {
   #sizes {
     width: 60%;
     font-size: 14px;
+  }
+  .add{
+    width: 90%;
   }
 
 }
