@@ -19,10 +19,9 @@ hamburger.addEventListener("click", () => {
 colorContainerDiv.addEventListener('click', function changePageBackgroundColor(e) {
 
   const htmlBody = document.querySelector('body');
-  if (htmlBody.style.backgroundColor = '#ed48ba') {
-    add.style.backgroundColor = 'lightgrey';
-  }
+
+  add.style.backgroundColor = htmlBody.style.backgroundColor;
+
   htmlBody.style.backgroundColor = e.target.parentNode.style.color;
 
-  
 });
