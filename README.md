@@ -1,15 +1,18 @@
-# Team-Lannister
+# capstone2
 
-# Side Hustle Capstone Project for Team-Lannister - A team consist of 10
+> A Vue.js project
 
-# Using standards-compliant HTML, CSS and JavaScript, A JavaScript feature of being able to switch the bg-color using the circle color panel is implemented.
+## Build Setup
 
-# Colors:
+``` bash
+# install dependencies
+npm install
 
-# Background: #0392BF
+# serve with hot reload at localhost:8080
+npm run dev
 
-# Pink: #ED48BA
+# build for production with minification
+npm run build
+```
 
-# Yellow: #FBEC06
-
-# Grey: #B3D4E0
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
