@@ -13,7 +13,7 @@
     <div class="middle">
       <!-- picture -->
       <div class="image-section">
-        <img class="skate-img" src="../assets/skate.png" alt="Roller Skates" />
+        <img class="skate-img" src="../assets/skate-min.png" alt="Roller Skates" />
       </div>
       <div class="img-text">
         <p class="img-text1">SPEEDY</p>
@@ -56,7 +56,7 @@
         <div class="bg-changer">
           <span class="color-text"> COLOR: </span>
 
-          <button class="blue" v-on:click.prevent="toggleBlueBg"></button>
+          <button class="blue" v-on:click="toggleBlueBg"></button>
           <button class="pink" v-on:click="togglePinkBg"></button>
           <button class="yellow" v-on:click="toggleYellowBg"></button>
           <button class="white" v-on:click="toggleWhiteBg"></button>
