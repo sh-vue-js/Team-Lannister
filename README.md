@@ -1,15 +1,24 @@
-# Team-Lannister
+# capstone-project
 
-# Side Hustle Capstone Project for Team-Lannister - A team consist of 10
+## Project setup
+```
+npm install
+```
 
-# Using standards-compliant HTML, CSS and JavaScript, A JavaScript feature of being able to switch the bg-color using the circle color panel is implemented.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# Colors:
+### Compiles and minifies for production
+```
+npm run build
+```
 
-# Background: #0392BF
+### Lints and fixes files
+```
+npm run lint
+```
 
-# Pink: #ED48BA
-
-# Yellow: #FBEC06
-
-# Grey: #B3D4E0
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
