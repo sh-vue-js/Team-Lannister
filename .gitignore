@@ -21,3 +21,10 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+:class="{
+      pinkBg: pinkClicked,
+      blueBg: blueClicked,
+      yellowBg: yellowClicked,
+      whiteBg: whiteClicked,
+    }"

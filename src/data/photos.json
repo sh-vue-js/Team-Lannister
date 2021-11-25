@@ -1,0 +1,162 @@
+[
+  {
+    "id": 0,
+    "description": "Brown Brim",
+    "price": 25,
+    "url": "https://images.pexels.com/photos/9683890/pexels-photo-9683890.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "qty": 1,
+    "category": "Hats"
+  },
+  {
+    "id": 1,
+    "description": "Blue Beanie",
+    "price": 18,
+    "url": "https://i.etsystatic.com/5758836/r/il/bf6c94/3484436947/il_340x270.3484436947_a165.jpg",
+    "qty": 1,
+    "category": "Hats"
+  },
+  {
+    "id": 2,
+    "description": "Brown Cowboy",
+    "price": 35,
+    "url": "https://texashillcountry.com/wp-content/uploads/cowboy-cowboy-hat-good-looking-850269-975x650.jpg",
+    "qty": 1,
+    "category": "Hats"
+  },
+  {
+    "id": 3,
+    "description": "Grey Brim",
+    "price": 25,
+    "url": "https://cdn.shopify.com/s/files/1/0431/5161/products/scottie-wide-brim-fedora-grey-felt-hats.jpg?v=1629907449",
+    "qty": 1,
+    "category": "Hats"
+  },
+  {
+    "id": 4,
+    "description": "Adidas NMD",
+    "price": 220,
+    "url": "https://images.pexels.com/photos/233315/pexels-photo-233315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Sneakers"
+  },
+  {
+    "id": 5,
+    "description": "Adidas Yeezy",
+    "price": 280,
+    "url": "https://images.pexels.com/photos/1102776/pexels-photo-1102776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Sneakers"
+  },
+  {
+    "id": 6,
+    "description": "Black Converse",
+    "price": 110,
+    "url": "https://images.pexels.com/photos/8060067/pexels-photo-8060067.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Sneakers"
+  },
+  {
+    "id": 7,
+    "description": "Nike White AirForce",
+    "price": 160,
+    "url": "https://images.pexels.com/photos/4328466/pexels-photo-4328466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Sneakers"
+  },
+  {
+    "id": 8,
+    "description": "Black Denim",
+    "price": 150,
+    "url": "https://images.pexels.com/photos/3608981/pexels-photo-3608981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Jackets"
+  },
+  {
+    "id": 9,
+    "description": "Blue Denim",
+    "price": 110,
+    "url": "https://images.pexels.com/photos/10250408/pexels-photo-10250408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Jackets"
+  },
+  {
+    "id": 10,
+    "description": "Grey Denim",
+    "price": 100,
+    "url": "https://cdn.lookastic.com/grey-denim-jacket/gordon-slim-fit-denim-jacket-original-83822.jpg",
+    "qty": 1,
+    "category": "Jackets"
+  },
+  {
+    "id": 11,
+    "description": "Brown Denim",
+    "price": 130,
+    "url": "https://images.pexels.com/photos/3724367/pexels-photo-3724367.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Jackets"
+  },
+  {
+    "id": 12,
+    "description": "Blue Tanktop",
+    "price": 25,
+    "url": "https://images.pexels.com/photos/8244389/pexels-photo-8244389.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Women"
+  },
+  {
+    "id": 13,
+    "description": "Floral BLouse",
+    "price": 20,
+    "url": "https://images.pexels.com/photos/3932376/pexels-photo-3932376.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Women"
+  },
+  {
+    "id": 14,
+    "description": "Floral Dress",
+    "price": 80,
+    "url": "https://images.pexels.com/photos/4380970/pexels-photo-4380970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Women"
+  },
+  {
+    "id": 15,
+    "description": "Red Dots Dress",
+    "price": 80,
+    "url": "https://images.pexels.com/photos/3118650/pexels-photo-3118650.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Women"
+  },
+  {
+    "id": 16,
+    "description": "Black Top",
+    "price": 25,
+    "url": "https://images.pexels.com/photos/1482414/pexels-photo-1482414.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Men"
+  },
+  {
+    "id": 17,
+    "description": "Pink Top",
+    "price": 50,
+    "url": "https://images.pexels.com/photos/9558243/pexels-photo-9558243.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Men"
+  },
+  {
+    "id": 18,
+    "description": "Cartoon Print Shirt",
+    "price": 40,
+    "url": "https://static.highsnobiety.com/thumbor/VJ962sDi4H75t8cW9SoXB8dxgYQ=/1600x2400/static.highsnobiety.com/wp-content/uploads/2019/12/19202157/vetements-cartoon-print-shirt-02.jpg",
+    "qty": 1,
+    "category": "Men"
+  },
+  {
+    "id": 19,
+    "description": "Floral Shirt",
+    "price": 50,
+    "url": "https://images.pexels.com/photos/2897520/pexels-photo-2897520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "qty": 1,
+    "category": "Men"
+  }
+]
