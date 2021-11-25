@@ -1,15 +1,17 @@
 <template>
   <div>
-    <article class="left-end footer main">
+    <article
+      class="hidden footer md:mr-16 pt-7 p-2.5 md:h-screen w-16 md:flex flex-col justify-between text-center md:fixed"
+    >
       <!-- Sidebar -->
       <div>
-        <i class="fas fa-sync-alt logo"></i>
+        <i class="fas fa-sync-alt pink logo p-2.5 text-white"></i>
       </div>
 
-      <div class="media">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-vk"></i>
+      <div class="flex flex-col w-full cursor-pointer">
+        <i class="fab fa-facebook-f links"></i>
+        <i class="fab fa-instagram-square links"></i>
+        <i class="fab fa-vk links"></i>
       </div>
     </article>
   </div>
@@ -23,36 +25,4 @@ export default {
 >
 
 <style scoped>
-.footer {
-  background-color: rgb(216, 227, 236);
-  padding: 10px;
-  width: 4rem;
-  height: 100%;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 30px;
-  justify-content: space-between;
-}
-
-.logo {
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 10px;
-  background: #ed48ba;
-  color: white;
-}
-
-.media {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  color: #0392bf;
-}
-
-.media i {
-  padding: 10px auto;
-  margin: 10px auto;
-}
 </style>
